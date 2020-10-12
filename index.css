@@ -1,0 +1,232 @@
+body {
+    background-color: #f0f5f5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+
+}
+
+.topnav {
+    margin-top: 0;
+    overflow: hidden;
+    position: fixed;
+    background-color: #333;
+    width: 100%;
+
+}
+.topnav a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+    
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+
+.topnav a.active {
+    background-color: rgba(39, 39, 245, 0.938);
+    color: white;
+    
+}
+
+.topTexto {
+    text-align: center;
+    padding-top: 60px;
+    background-color: rgba(39, 39, 245, 0.938);
+    color: white;
+
+}
+
+.topImage {
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 600px;
+    min-height: 350px;
+}
+
+.h1 {
+    margin: 60px;
+
+}
+
+.h1Tecnologia{
+    margin: 0px;
+}
+
+.h3 {
+    margin: 60px;
+    height: 200px;
+
+}
+
+.phtml{
+    padding: 10px;
+    margin: 10px;
+    height: 50px;
+    min-width: -webkit-fill-available;
+}
+
+.pJs{
+    padding: 10px;
+    margin: 0px;
+    height: 50px;
+    min-width: -webkit-fill-available;
+}
+
+.pCss {
+    padding: 0px;
+    margin: 5px;
+    height: 40px;
+    min-width: -webkit-fill-available;
+}
+
+.corpo {
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    padding: 16px;
+}
+.imageleft {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+    max-height: 200px;
+    float: left;
+}
+.imageright{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+    max-height: 200px;
+    float: right;
+    
+}
+.textoleft{
+    margin-left: 200px;
+    padding: 40px;
+}
+.textoright{
+    margin-left: 10px;
+    padding: 45px;
+}
+.camposHtml {
+    margin: 20px 15px 0px 20px;
+    border-color: #ff5e00;
+    border: 5px solid #ff5e00;
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+.corHtml {
+    color: #ff5e00;
+    text-decoration: none;
+}
+.camposJs {
+    margin: 20px 15px 0px 20px;
+    border-color: orange;
+    border: 5px solid orange;
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    
+}
+.corJs {
+    color: orange;
+    text-decoration: none;
+}
+.camposCss {
+    margin: 20px 15px 0px 20px;
+    border-color: blue;
+    border: 5px solid blue;
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    
+}
+.corCss {
+    color: blue;
+    text-decoration: none;
+}
+.area {
+    padding: 20px;
+    margin-top: 100px;
+    border: 3px solid green;
+    width: 260px;
+    height: 290px;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.h3area {
+    color: green;
+    
+}
+
+.areaImage {
+    float: left;
+    max-width: 60px;
+    max-height: 80px;
+    
+}
+
+.formContatoF{
+    border-color: green ;
+    padding: 10px;
+    width: 10%;
+    float: left;
+}
+.fundo{
+    background-color: rgba(39, 39, 245, 0.938);
+    
+}
+
+.topnavContato {
+    margin-top: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+.topnavContato a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnavContato a.active {
+    background-color: rgba(39, 39, 245, 0.938);
+    color: white;
+    
+}

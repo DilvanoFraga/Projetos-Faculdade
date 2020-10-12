@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Fale conosco</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+</head>
+<body class="fundo">
+
+    <div class="topnavContato">
+
+        <a href="index-Home.html">HOME</a>
+        <a href="index-tecnologias.html">TECNOLOGIAS</a>
+        <a href="index-Contato.html" class="active">CONTATO</a>
+       
+    </div>
+
+    <div class="area">
+        <img src="whatsapp.png" alt="image whatsapp" class="areaImage">
+        <h3 class="h3area">
+            Contato via whatsapp
+        </h3>
+        <form id="formContato" method="POST">
+            <fieldset class="formContatoF">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome"/>
+                </div>
+                <div>
+                    <label for="sobreNome">Sobrenome:</label>
+                    <input type="text" id="sobreNome" name="sobreNome"/>
+                </div>
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone" name="telefone" value=""/>
+                </div>
+                <div>
+                        <label for="msg">Mensagem: </label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+                </div>
+                <button type="submit" onclick="enviarMsg()">Enviar</button>
+            </fieldset>
+
+        </form>
+    </div>
+</body>
+</html>
